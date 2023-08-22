@@ -1,0 +1,53 @@
+h1,h2,h3,h4,h5{
+    font-family: 'Fjalla One',sans-serif;
+}
+.cover{
+    height: 400px;
+    color: rgba(209, 181, 125, 1);
+    background-image: url(/IMG/Logos/PortadaSinLogo.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.body{
+    background-color: rgba(0 , 68, 107, 1);
+}
+.card{
+    border: 0 !important;
+    box-shadow: 0 8px 10px -1px rgba(209, 181, 125, 0.7), 0 6px 8px -1px rgba(209, 181, 125, 0.8);
+}
+.card-title{
+    min-height: 3rem;
+    text-align: center;
+}
+.card-text{
+    min-height: 10rem;
+    text-align:justify;
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.navbar{
+    background-color: rgba(209, 181, 125, 0.95);
+}
+
+.btn-style{
+    background-color: rgba(209, 181, 125, 0.95);
+    background-blend-mode: darken;
+    border-color: rgba(0 , 68, 107, 1);
+    color:white
+}
+
+.title{
+    min-height: 5rem;
+    text-align: center;
+    color: rgba(209, 181, 125, 0.95);
+}
+
+.profile{
+    height: 50px;
+}
